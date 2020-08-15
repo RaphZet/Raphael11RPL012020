@@ -18,7 +18,7 @@
 
     <EditText
         android:layout_marginHorizontal="20dp"
-        android:id="@+id/email"
+        android:id="@+id/txtusername"
         android:layout_marginTop="100dp"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
@@ -33,19 +33,20 @@
         android:drawableLeft="@drawable/custom_email_icon" />
 
     <EditText
-        android:layout_marginHorizontal="20dp"
+        android:id="@+id/txtpassword"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
-        android:ems="10"
         android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_lock_icon"
         android:drawablePadding="12dp"
+        android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
-        android:textSize="14sp"
-        android:drawableLeft="@drawable/custom_lock_icon" />
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="14sp" />
 
 
     <Button
