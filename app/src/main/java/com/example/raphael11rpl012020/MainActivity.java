@@ -10,11 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-
-
     SharedPreferences pref;
     SharedPreferences.Editor editor;
-
     EditText txtusername;
     EditText txtpassword;
     Button btnlogin;
